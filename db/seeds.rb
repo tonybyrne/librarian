@@ -18,12 +18,23 @@ books = Book.create(
     [
         {
             acc_no: '2021-00001',
-            title: 'The Hitchhikers Guide to The Galaxy',
+            ddc: '823.914',
+            title: 'The Hitchhiker\'s Guide to The Galaxy',
             author: authors.first,
             edition: '1980',
             place_of_publication: 'London',
             publisher: 'Crown Publishing Group, T.H.E.',
             published: '1980-01-01'
+        },
+        {
+            acc_no: '2021-00002',
+            ddc: '823.914',
+            title: 'The Restaurant at The End of The Universe',
+            author: authors.first,
+            edition: '1982',
+            place_of_publication: 'London',
+            publisher: 'Crown Publishing Group, T.H.E.',
+            published: '1982-01-01'
         }
     ]
 )
