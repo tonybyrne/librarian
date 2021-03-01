@@ -1,0 +1,15 @@
+<h1>Books</h1>
+<table class="table">
+<% @books.each do |book| %>
+    <thead>
+        <th scope="col">Acc No.</th>
+        <th scope="col">Author</th>
+        <th scope="col">Title</th>
+    </thead>
+    <tr>
+        <td><%= book.acc_no %></td>
+        <td><%= book.author.name %></td>
+        <td><%= book.title %></td>
+    </tr>
+<% end %>
+</table>
